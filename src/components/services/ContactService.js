@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export class ContactService{
-  static serverURL=`http://localhost:9000`;
+  static serverURL=`https://lms-server2-olaj.onrender.com/api`;
 
   static getGroups(){
     let dataURL = `${this.serverURL}/groups`;
