@@ -1,0 +1,36 @@
+body{
+  background-image: url(LoginBackground.jpg);  
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+ 
+}
+
+.background{
+  background-color: #00000091;
+  box-shadow: 0px 2px 15px 10px #000;
+  height:450px;
+}
+
+.info{
+  font-weight: bold;
+  color: rgb(2,254,255);
+  
+}
+
+.login{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(2,254,255);
+  font-weight: bold;
+
+}
+
+.border{
+  height: 30px;
+}
+
+.sign{
+  color: white;
+  font-weight: bold;
+}

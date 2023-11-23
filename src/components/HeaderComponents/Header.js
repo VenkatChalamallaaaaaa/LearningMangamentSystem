@@ -14,20 +14,38 @@ const Header = () => {
               <Link to="/home">Home</Link>
             </li>
             <li>
-              <Link to="/courses">Courses</Link>
+
             </li>
             <li>
-              <Link to="/about">About</Link>
+            <Link to="/about">About</Link>
+            </li>
+            <li>
+              
+            </li>
+            <li>
+            <Link to="/courses">Courses</Link>
+            </li>
+            <li>
+              
             </li>
             <li>
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="assigments">Assigments</Link>
+              
+            </li>
+            <li>
+              <Link to="/query">Queries</Link>
+            </li>
+            <li>
+              
+            </li>
+            <li>
+              <Link to="/FAQ">FAQ</Link>
             </li>
           </ul>
           <div className='start'>
-            <div className='button'>Get Status</div>
+            <div className='button'> <Link to={"/login"} style={{color:"white"}}>Log Out</Link></div>
           </div>
           <button className='toggle' onClick={()=> SetClick(!click)}>{click ? <i className='fa fa-times'></i>: <i className='fa fa-times'></i>} </button>
         </nav>

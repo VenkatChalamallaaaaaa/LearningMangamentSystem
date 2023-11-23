@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import './Signup.css';
 
 function Signup(){
   const [name, setName] = useState()
@@ -18,13 +19,13 @@ function Signup(){
   }
 
   return(
-    <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
-      <div className='bg-white p-3 rounded w-25'>
-        <h2>Register</h2>
+    <div className="d-flex justify-content-center align-items-center vh-100">
+      <div className='background p-3 rounded w-25'>
+        <h2 className='login'>Register</h2>
         <form onSubmit={handleSubmit}>
           <div className='mb-3'>
             <label htmlFor='email'>
-              <strong>Name</strong>
+              <strong className='info'>Name</strong>
             </label>
             <input text="text" placeholder='Enter Name' autoComplete='off' name='email' className='form-control rounded-0' onChange={(e) => setName(e.target.value)}
              />
@@ -32,7 +33,7 @@ function Signup(){
 
           <div className='mb-3'>
             <label htmlFor='email'>
-              <strong>Email</strong>
+              <strong className='info'>Email</strong>
             </label>
             <input type='email' placeholder='Enter Email' autoComplete='off' name='email' className='form-control rounded-0' 
             onChange={(e) => setEmail(e.target.value)}
@@ -41,19 +42,19 @@ function Signup(){
 
           <div className='mb-3'>
             <label htmlFor='email'>
-              <strong>Password</strong>
+              <strong className='info'>Password</strong>
             </label>
             <input type='password' placeholder='Enter Password' name='password' className='form-control rounded-0' 
             onChange={(e) => setPassword(e.target.value)}
             />
           </div>
 
-          <button type='submit' className='btn btn-success w-100 rounded-0'>
+          <button type='submit' className='btn btn-success w-100 rounded-0' style={{fontWeight:"bold"}}>
             Register
           </button>
           </form>
-          <p>Already Have an Account</p>
-          <Link to="/login" className='btn btn-default border w-00 bg-light rounded-0 text-decoration-none'>
+          <p className='info'>Already Have an Account</p>
+          <Link to="/login" className='btn btn-primary w-100 rounded-0' style={{fontWeight:"bold"}}>
             Login
           </Link>
         

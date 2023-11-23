@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='container'>
           <div className='row'>
             <Title subtitle= 'WELCOME TO THE ONLINE JOURNEY' title='ONE Of The Best Places For Online Education '/>
-            <p>
+            <p className='info2'>
             CoED (Collaborative Online Education) is an innovative online platform designed to provide users with a dynamic and interactive learning experience. This website is dedicated to helping users, whether they are students, professionals, or lifelong learners, acquire knowledge and skills in a collaborative and engaging manner.</p>
 
             <div className='button'>

@@ -1,0 +1,49 @@
+/* WelcomePage.css */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+  background-size: cover;
+  background-position: center;
+  color: black;
+  
+}
+
+body{
+ 
+  height: 100vh;
+}
+
+.welcome-heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.options-container {
+  display: flex;
+  gap: 20px;
+}
+
+.login-option {
+  padding: 15px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.admin-login {
+  background-color: #007bff; /* Admin login button color */
+}
+
+.learner-login {
+  background-color: #28a745; /* Learner login button color */
+}
+
+.login-option:hover {
+  background-color: #0056b3; /* Change color on hover */
+}

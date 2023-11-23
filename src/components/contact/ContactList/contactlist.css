@@ -1,0 +1,33 @@
+body{
+  background-color: cyan;
+  background-image: url("./layered-waves-haikei-top.svg");
+    background-position: center;
+    height:50vh;
+}
+
+
+.contact-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+p {
+  color: white;
+}
+
+.Manager{
+  color: white;
+}
+
+.but{
+  width: 60px;
+  margin-bottom: 30px;
+}
+.card2{
+  width: 200;
+}
+.unit{
+  text-align: center;
+  
+}

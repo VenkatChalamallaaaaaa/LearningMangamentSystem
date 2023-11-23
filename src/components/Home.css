@@ -91,3 +91,17 @@ p{
   line-height: 30px;
   font-size: 14px;
 }
+
+.back{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+  color: black;
+}

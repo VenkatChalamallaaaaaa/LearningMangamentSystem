@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #020e54;
+}
+.body{
+    background-color: #f9f6f2 ;
+}
+
+.header-svg img {
+    width: 500px;
+    height: 500px;
+}
+
+.header-svg{
+    margin-right: 50px;
+}
+
+.header-text{
+    flex: 1;
+    margin-left: 50px;
+    color: white;
+}
+
+.head-bold{
+    font-weight: 800;
+    font-size:50px;
+    
+}
+
+.head-desc{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.desc-svg{
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+}
+
+.desc-title{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+}
+
+.desc-text{
+    flex: 1;
+    margin-top: 14px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.course-desc{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    margin-right: 60px;
+    background-color: #a6deae;
+
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+.video{
+    flex: 1;
+    background-color: #f9f6f2;
+    padding-bottom: 25px;
+}
+
+.tut-title{
+    font-weight: 600;
+    margin: 10px;
+}
+
+.module h2{
+    margin-left: 60px;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.border{
+    width: 100%;
+    height: 5px;
+    background-color: #020e54;
+}
+.module-video{
+    margin: 25px;
+}

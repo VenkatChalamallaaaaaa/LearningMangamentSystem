@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import "./Login.css"
 
 function Login(){
   const [email, setEmail] = useState()
@@ -23,13 +24,19 @@ function Login(){
   }
 
   return(
-    <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
-      <div className='bg-white p-3 rounded w-25'>
-        <h2>Login</h2>
+    <div>
+      <div>
+      
+        <button className='btn btn-primary' style={{marginLeft:"1000px", border:"none", borderWidth:"30px"}}><Link to="/" style={{color:"white"}}>Back</Link></button>
+        
+      </div>
+      <div className="d-flex justify-content-center align-items-center vh-100 ">
+      <div className=' p-3 rounded w-25 background'>
+        <h2 className="login">Login</h2 >
         <form onSubmit={handleSubmit}>
           <div className='mb-3'>
             <label htmlFor='email'>
-              <strong>Email</strong>
+              <strong className="info">Email</strong>
             </label>
             <input text="email" placeholder='Enter Email' autoComplete='off' name='email' className='form-control rounded-0' onChange={(e) => setEmail(e.target.value)}
              />
@@ -38,26 +45,32 @@ function Login(){
 
           <div className='mb-3'>
             <label htmlFor='email'>
-              <strong>Password</strong>
+              <strong className="info">Password</strong> 
             </label>
             <input type='password' placeholder='Enter Password' name='password' className='form-control rounded-0' 
             onChange={(e) => setPassword(e.target.value)}
             />
           </div>
 
-          <button type='submit' className='btn btn-success w-100 rounded-0'>
+          <button type='submit' className='btn btn-success w-100 rounded-0 sign'>
             Login
           </button>
           </form>
-          <p>Already Have an Account</p>
-          <Link to="/register" className='btn btn-default border w-00 bg-light rounded-0 text-decoration-none'>
+          <p className="info">Already Have an Account</p>
+          <button className='btn btn-primary w-100 rounded-0'>
+          <Link to="/register" className='sign'>
             Sign Up
           </Link>
+          </button>
+          
         
 
       </div>
 
     </div>
+
+    </div>
+    
   )
 }
 

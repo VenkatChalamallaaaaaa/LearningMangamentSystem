@@ -1,0 +1,114 @@
+.App-header {
+ 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+body{
+  background-image: url('layered-waves-haikei-top.svg');
+}
+
+
+
+.box {
+  width: 350px;
+  height: 350px;  
+  box-shadow: 0px 0px 15px 1px;
+  margin: auto;    
+  text-align: left;
+  padding: 15px;
+}
+
+
+
+
+.name {
+  display: flex;
+  flex-direction: row;
+}
+
+.name input {
+  width: 95%;
+  height: 40px;
+ 
+  border-style: groove;
+}
+
+input, textarea{
+  width: 97%;
+  height: 40px;
+
+  border-style: groove;
+}
+
+
+
+.contactpage {
+  text-align: center;
+  align-items: center;
+}
+
+.ContactUs {
+  display: flex;
+  flex-direction: row;
+  column-gap: 180px;
+}
+
+.ContactUs img{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.phone {
+  width: 290px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.query {
+  width: 290px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq {
+  width: 290px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.faqlist  {
+  text-align: center;
+}
+
+.faqlist {
+  width: 90%;
+}
+
+.q {
+  font-weight: 600;
+}
+
+.faqbox {
+  text-align: center;
+  border-style: double;
+  border-color: #000000;
+  border-width: 8px;
+  margin-left: 120px;
+  
+}
+
+fieldset {
+  text-align: left;
+  border-style: double;
+  border-radius: 15px;
+  margin: 10px;
+  border-color: #000000;
+}
